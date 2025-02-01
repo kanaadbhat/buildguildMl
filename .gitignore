@@ -1,0 +1,32 @@
+# Ignore model files
+models/*.pkl
+*.pkl
+
+# Ignore datasets
+data/
+*.csv
+*.xlsx
+*.json
+
+# Ignore Python environment
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+Pipfile
+Pipfile.lock
+
+# Ignore logs and system files
+logs/
+*.log
+*.out
+*.err
+.DS_Store
+
+# Ignore deployment & IDE files
+Procfile
+*.sqlite3
+.vscode/
+.ipynb_checkpoints/
