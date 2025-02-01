@@ -1,7 +1,3 @@
-# Ignore model files
-models/*.pkl
-*.pkl
-
 # Ignore datasets
 data/
 *.csv
